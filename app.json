@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/cardList/cardList",
+    "pages/upload/upload",
+    "pages/item/item",
+    "pages/logs/logs",
+    "pages/login/login",
+    "pages/user/user",
+    "pages/collected/collected",
+    "pages/feedback/feedback",
+    "pages/intro/intro"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#212121",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "zzz",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/cardList/cardList",
+        "text": "图鉴",
+        "iconPath": "images/list.png",
+        "selectedIconPath": "/images/list(1).png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "地图",
+        "iconPath": "images/map.png",
+        "selectedIconPath": "/images/map(1).png"
+      },
+      {
+        "pagePath": "pages/upload/upload",
+        "text": "上传",
+        "iconPath": "images/upload.png",
+        "selectedIconPath": "/images/upload(1).png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "images/user(1).png",
+        "selectedIconPath": "/images/user.png"
+      }
+    ]
+  }
+}

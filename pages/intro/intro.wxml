@@ -1,0 +1,14 @@
+<!--pages/intro/intro.wxml-->
+<scroll-view scroll-y="true" >
+  <view class='meta'>
+    <image class='poster' src='http://localhost:8080/WeChat/img/schoolpic.png' background-size="contain"></image>
+    <text class='title'>学校名称：中山大学南方学院</text>
+    <!-- <text class='info'>卡名：{{card.name}}</text>
+    <text class='info'>经度：{{card.lng}}</text>
+    <text class='info'>纬度：{{card.lat}}</text> -->
+  </view>
+  <view class='summary'>
+    <text class='label'>介绍：</text>
+    <text class='content'>中山大学南方学院是2006年经教育部批准，由中山大学与广东珠江投资集团合作创办的独立学院，是一所多学科全日制应用型本科高等学校，2016年被遴选为广东省普通本科转型试点高校。</text>
+  </view>
+</scroll-view>

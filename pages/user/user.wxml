@@ -1,0 +1,47 @@
+<!--pages/user/user.wxml-->
+<view class='page-body'>
+  <view class="page-section">
+    <view class="weui-panel weui-panel_access">
+      <view class="weui-panel__bd">
+        <navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+          <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+            <image class="weui-media-box__thumb" src="{{userInfo.avatarUrl}}" />
+          </view>
+          <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+            <view class="weui-media-box__title">{{userInfo.nickName}}</view>
+          </view>
+        </navigator>
+      </view>
+    </view>
+    <view class="placeholder">
+      <navigator url="../collected/collected" class="weui-cells weui-cells_after-title" hover-class="weui-cell_active">
+        <view class="weui-cell">
+          <view class="weui-cell__hd">
+            <image src='../../images/collected.png' style="margin-right:12px; padding-bottom:10rpx; vertical-align: middle;width:20px; height: 20px;"></image>
+          </view>
+          <view class="weui-cell__bd">我的卡片集</view>
+        </view>
+      </navigator>
+    </view>
+    <view class="placeholder">
+      <navigator url="../intro/intro" class="weui-cells weui-cells_after-title" hover-class="weui-cell_active">
+        <view class="weui-cell">
+          <view class="weui-cell__hd">
+            <image src='../../images/pic.png' style="margin-right:12px; padding-bottom:10rpx; vertical-align: middle;width:20px; height: 20px;"></image>
+          </view>
+          <view class="weui-cell__bd">校园介绍</view>
+        </view>
+      </navigator>
+    </view>
+    <view class="placeholder">
+      <navigator url="../feedback/feedback" class="weui-cells weui-cells_after-title" hover-class="weui-cell_active">
+        <view class="weui-cell">
+          <view class="weui-cell__hd">
+            <image src='../../images/fankui.png' style="margin-right:12px; padding-bottom:10rpx; vertical-align: middle;width:20px; height: 20px;"></image>
+          </view>
+          <view class="weui-cell__bd">用户反馈</view>
+        </view>
+      </navigator>
+    </view>
+  </view>
+</view>

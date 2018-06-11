@@ -1,0 +1,4 @@
+<view class="container">
+  <map id='locmap' latitude="{{latitude}}" longitude="{{longitude}}" scale="{{scale}}" controls="{{controls}}" markers="{{markers}}"  bindcontroltap="bindcontroltap" show-location
+  />
+</view>

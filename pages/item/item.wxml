@@ -1,0 +1,15 @@
+<loading hidden ="{{!loading}}">加载中...</loading>
+<!--滚动列表-->
+<scroll-view scroll-y="true" wx:if="{{card}}" wx:key ="id">
+  <view class='meta'>
+    <image class='poster' src='{{card.picurl}}' background-size="contain"></image>
+    <text class='title'>编号：{{card.id}}</text>
+    <text class='info'>卡名：{{card.name}}</text>
+    <text class='info'>经度：{{card.lng}}</text>
+    <text class='info'>纬度：{{card.lat}}</text>
+  </view>
+  <view class='summary'>
+    <text class='label'>介绍：</text>
+    <text class='content'>{{card.info}}</text>
+  </view>
+</scroll-view>

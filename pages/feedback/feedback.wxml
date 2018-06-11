@@ -1,0 +1,11 @@
+<!--pages/feedback/feedback.wxml-->
+<view class='meta'>
+  <view class="drawer_title">问题反馈</view>
+
+  <view class="userinfo">
+    <input  name="cID" value="问题反馈"></input>
+  </view>
+  <view class="btn">
+    <button bindtap="uploadcard"> 提交 </button>
+  </view>
+  </view>

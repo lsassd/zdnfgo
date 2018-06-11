@@ -1,0 +1,38 @@
+<!-- <view class="weui-uploader__files" id="uploaderFiles">
+
+  <view class="weui-uploader__file" bindtap="previewImage" id="{{item}}">
+    <image class="weui-uploader__img" src="{{item}}" mode="aspectFill" />
+  </view>
+  <view class="weui-uploader__input-box">
+    <view class="weui-uploader__input" bindtap="chooseImage"></view>
+  </view>
+</view> -->
+
+
+<view class='meta'>
+  <view class="drawer_title">制作你的卡片</view>
+  <block wx:for="{{tempFilePaths}}" wx:key="{{index}}">
+    <image class="poster" src="{{item }}" bindtap="listenerButtonPreviewImage" data-index="{{index}}" background-size="contain" />
+  </block>
+</view>
+<view class="userinfo">
+
+  <button bindtap="upload"> 上传图片 </button>
+  <view class="top grid">
+    <label class="title col-0">卡片ID</label>
+    <input class="input_base input_h30 col-1" name="cID" value="此id为唯一标识"></input>
+  </view>
+  <view class="top grid">
+    <label class="title col-0">卡片名称</label>
+    <input class="input_base input_h30 col-1" name="cName" value="name"></input>
+  </view>
+  <view class="top grid">
+    <label class="title col-0">介绍</label>
+    <input class="input_base input_h30 col-1" name="info" value="简单的介绍下你的卡片把"></input>
+  </view>
+
+
+</view>
+<view class="btn">
+  <button bindtap="uploadcard"> 提交 </button>
+</view>

@@ -1,0 +1,2 @@
+<img class = "center" src ='../images/logo.png'></img>
+<button  open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权登录</button>

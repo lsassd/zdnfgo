@@ -1,0 +1,20 @@
+<!--pages/collected/collected.wxml-->
+<view class='container'>
+  <!--等待框-->
+  <loading hidden="{{!loading}}">加载中...</loading>
+  <view class='page-header'>
+    <text class='page-title'>{{title}}</text>
+  </view>
+  <view class='page-body' wx:for="{{cards}}" wx:key="id">
+  <navigator url='../item/item?id={{item.id}}'>
+      <view class='item'>
+          <image class='poster' wx:if="{{item.picurl.length != 0}}" src='{{item.picurl}}'/>  
+        <view class='meta'>
+          <view class='title'>{{item.id}}</view>
+           <view class='subtitle'>{{item.info}}</view> 
+        </view>
+      </view>
+
+      </navigator>  
+  </view>
+</view>

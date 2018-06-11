@@ -1,0 +1,5 @@
+/* pages/login/login.wxss */
+.center{
+  justify-content: center;
+  
+}
